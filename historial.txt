@@ -1,0 +1,444 @@
+    1  ~vagrant status
+    2  pwd
+    3  }
+    4  pwd
+    5  cd / 
+    6  pwd
+    7  ls
+    8  man ls
+    9  man ls 
+   10  ls -a
+   11  ls -l
+   12  ls -a -l
+   13  -la ls
+   14  pdw
+   15  cd home/
+   16  ls
+   17  cd vagrant/
+   18  cd ..
+   19  cd vagrant/
+   20  ls
+   21  ls -l
+   22  cd repogit/
+   23  ls
+   24  cd UTN-FRA_SO_onBording/
+   25  ls
+   26  cat
+   27  ls
+   28  cd repogit/
+   29  ls
+   30  cd UTN-FRA_SO_onBording/
+   31  ls
+   32  cat
+   33  ls
+   34  cd repogit/
+   35  cd UTN-FRA_SO_onBording/
+   36  ls
+   37  cat README.md 
+   38  man cat
+   39  cd ..
+   40  ls
+   41  cat << FIN
+   42  Hola
+   43  linea1
+   44  linea2
+   45  linea3
+   46  FIN
+   47  cat << FIN > archivo.txt
+   48  Hola
+   49  mi nombre es
+   50  thomas
+   51  FIN
+   52  ls
+   53  cat archivo.txt 
+   54  cat << FIN >> archivo.txt 
+   55  Anashe
+   56  67
+   57  67
+   58  67
+   59  67
+   60  67
+   61  67
+   62  67
+   63  67
+   64  fin
+   65  FIN
+   66  cat archivo.txt 
+   67  man bc
+   68  bc <<< 2+3
+   69  bc <<< 12344**1233
+   70  bc <<< 21234411*1233312
+   71  tac archivo.txt 
+   72  echo "hola mundo"
+   73  echo "hola mundo" | wc
+   74  tail -n2 archivo.txt 
+   75  cat archivo.txt  | tail -n2
+   76  cat archivo.txt  | grep 67
+   77  cat /porc/cpuinfo | grep proce
+   78  cat 
+   79  ls
+   80  man mkdir
+   81  mkdir archivos_clases
+   82  ls+
+   83  ls
+   84  mv archivo.txt archivos_clases/
+   85  ls
+   86  cd archivos_clases/
+   87  ls
+   88  cp archivo.txt ../
+   89  ls
+   90  cd ..
+   91  ls
+   92  man rm
+   93  rm -I archivos_clases/
+   94  man rmdir
+   95  rmdir -I archivos_clases/
+   96  man rm
+   97  rm -Ir archivos_clases/
+   98  ls
+   99  ls archivos_clases/
+  100  cd ..
+  101  ls
+  102  cd ..
+  103  ls
+  104  cd ..
+  105  ls
+  106  cd home/
+  107  ls
+  108  cd vagrant/
+  109  ls
+  110  rm -Ir archivos_clases/
+  111  ls
+  112  history
+  113  ls
+  114  history >> Machete_clase
+  115  ls
+  116  cd Machete_clase
+  117  ls
+  118  Machete_clase
+  119  history
+  120  ls
+  121  cd Machete_clase/
+  122  cat /etc/passwd
+  123  man useradd
+  124  useradd pepe
+  125  sudo useradd thomi
+  126  cat /etc/passwd
+  127  ls /home/
+  128  sudo cat/etc/shadow
+  129  sudo cat /etc/shadow
+  130  su thomi
+  131  ls
+  132  sudo passwd thomi
+  133  sudo cat /etc/shadow
+  134  ls /
+  135  man userdel
+  136  sudo userdel thomi
+  137  kill -9 2552
+  138  sudo kill -9 2552
+  139  sudo userdel thomi
+  140  man userdel
+  141  userdel
+  142  sudo cat/etc/shadow
+  143  sudo cat /etc/shadow
+  144  sudo userdel thomi
+  145  sudo useradd -m -s /bin/bash Pepe
+  146  cat /etc/shadow
+  147  sudo cat /etc/shadow
+  148  ls /home/
+  149  man usermod
+  150  sudo usermod -c "Jose shanchez" pepe
+  151  sudo usermod -c "Jose shanchez" Pepe
+  152  sudo cat /etc/shadow
+  153  sudo grep /etc/shadow
+  154  sudo grep vagrant /etc/shadow
+  155  sudo grep vagrant /etc/shadow | awk -f ":" "{print$2}"
+  156  sudo grep vagrant /etc/shadow | awk -F ':' '{print$2}'
+  157  sudo usermod -p "$(sudo grep vagrant /etc/shadow | awk -F ':' '{print$2}')" Pepe
+  158  sudo cat /etc/shadow
+  159  sudo groupadd desarrolladores
+  160  cat /etc/group
+  161  sudo usermod -G desarrolladores Pepe
+  162  cat /etc/group
+  163  sudo useradd -m -s /bin/bash -G desarrolladores -c "Desarrollador 1 " desa1
+  164  cat /etc/group
+  165  ls / home
+  166  pdw
+  167  pwd
+  168  cd /home/
+  169  ls
+  170  cat << FIN >> ejemplo.txt
+  171  cualquier
+  172  cosa
+  173  FIN
+  174  ls -1
+  175  ls
+  176  cd ..
+  177  ls
+  178  ls -1
+  179  ls /home/
+  180  cd ..
+  181  cat << FIN >> ejemplo.txt
+  182  cualquier
+  183  cosa
+  184  FIN
+  185  ls -1
+  186  sudo chmod o+r /home/vagrant
+  187  ls -l /home/
+  188  su - pepe
+  189  su - Pepe
+  190  sudo chmod o+x /home/vagrant/
+  191  ls -l
+  192  sudo chmod o-r /home/vagrant/
+  193  ls -l
+  194  pdw
+  195  pwd
+  196  ls
+  197  ls -l /home/
+  198  ls /home/desa1
+  199  sudo ls /home/desa1/
+  200  usudo mkdir hhola /home/desa1/hola
+  201  sudo ls -l /home/desa1
+  202  ls
+  203  sudo mkdir hola /home/desa1/hola
+  204  ls
+  205  sudo ls -l /home/desa1
+  206  sudo chwn desa1:desarrolladores hola
+  207  sudo chown desa1:desarrolladores hola
+  208  sudo chown :desa1 /home/desa1/hola
+  209  sudo ls -l /home/desa1
+  210  sudo chown -R :desarrolladores /home/desa1
+  211  ls -l /home/
+  212  sudo ls -l /home/desa1/
+  213  sudo chmod 771 /home/desa1/
+  214  ls -l /home/
+  215  cd /home/desa1
+  216  ls
+  217  pwd
+  218  pwdpwdp
+  219  wdpwdpwd
+  220  pwd
+  221  wpdwpd
+  222  wdpwdpwd
+  223  pwdpwd
+  224  pwd
+  225  wpd
+  226  wdpwdpp
+  227  cd ..
+  228  pwd
+  229  git --version
+  230  git clone https://github.com/upszot/UTN-FRA_SO_Bash.git
+  231  ls -l
+  232  cd UTN-FRA_SO_Bash/
+  233  ls -l
+  234  cat /etc/paswd
+  235  cat /etc/passwd
+  236  vim hola.sh
+  237  ls -l
+  238  cat hola.sh
+  239  sudo chmod u+x hola.sh 
+  240  ls -l
+  241  ./hola.sh 
+  242  vim hola.sh 
+  243  ./hola.sh 
+  244  vim hola.sh 
+  245  ./hola.sh 
+  246  ./hola.sh 2 pepe
+  247  vim hola.sh 
+  248  ./hola.sh 
+  249  vim hola.sh 
+  250  ./hola.sh 
+  251  ./hola.sh Pene concha
+  252  vim hola.sh 
+  253  ./hola.sh 
+  254  vim for.sh
+  255  sudo chmod u+x for.sh 
+  256  ls --l
+  257  ls -l
+  258  ./for.sh 
+  259  cat for.sh 
+  260  vim for.sh
+  261  cd ..
+  262  CD UTN-FRA_SO_Bash/
+  263  cd UTN-FRA_SO_Bash/
+  264  ls
+  265  cd Bucle_for/
+  266  ls -l
+  267  ls
+  268  cat 1_for_lista.sh 
+  269  cat 2_for_cmd_lista.sh
+  270  vim 2_for_cmd_lista.
+  271  vim 2_for_cmd_lista.sh
+  272  ls
+  273  ./2_for_cmd_lista.sh  2_for_cmd_lista.txt
+  274  cat 2_for_cmd_lista.
+  275  cat 2_for_cmd_lista.sh
+  276  ./2_for_cmd_lista.sh 2_for_cmd_lista.txt
+  277  vim 2_for_cmd_lista..sh
+  278  vim 2_for_cmd_lista.
+  279  ls
+  280  vim 2_for_cmd_lista.sh
+  281  ./2_for_cmd_lista.sh  2_for_cmd_lista.txt
+  282  cat /etc/passwd
+  283  ls /home/
+  284  cat /etc/group
+  285  ls -l
+  286  cd ..
+  287  ls -l
+  288  cd Bucle_while/
+  289  ls -l
+  290  vim 1_while_simple.sh 
+  291  ./1_while_simple.sh 
+  292  vim 1_while_simple.sh 
+  293  vimm 2_while_cmd_lista.sh
+  294  ls -l
+  295  vim 2_while_cmd_lista.sh
+  296  cat 2_while_cmd_lista.txt 
+  297  vim 2_while_cmd_lista.sh
+  298  ./2_while_cmd_lista.sh 2_while_cmd_lista.txt
+  299  vim 2_while_cmd_lista.sh
+  300  cd ..
+  301  ls
+  302  cd Condicionales/
+  303  ls
+  304  vim case_example.sh 
+  305  ./case_example.sh 2 1
+  306  vim case_example.sh 
+  307  ./case_example.sh 2 1
+  308  vim case_example.sh 
+  309  ./if_simple.sh q
+  310  ./if_simple.sh 
+  311  ./if_simple.sh
+  312  ls
+  313  ./if_simple.sh
+  314  vim if_simple.sh 
+  315  ./if_simple.sh 
+  316  vim if_multiple.sh 
+  317  ./if_multiple.sh 
+  318  vim if_multiple.sh 
+  319  ./if_multiple.sh 
+  320  cd ..
+  321  ls
+  322  menu$ ls -l
+  323  menu ls
+  324  cd menu/
+  325  ls
+  326  vim select_menu.sh 
+  327  ./select_menu.sh 
+  328  ls
+  329  cat /etc/passwd
+  330  ls
+  331  cd ..
+  332  ls
+  333  cd ..
+  334  ls
+  335  cd ..
+  336  ls
+  337  cd
+  338  ls
+  339  cd
+  340  ls
+  341  cd UTN-FRA_SO_Bash/
+  342  LS
+  343  ls
+  344  cd ..
+  345  ls
+  346  pwd
+  347  cd ..
+  348  pwd
+  349  ssh -keygen
+  350  ssh-keygen
+  351  cd ..
+  352  ls
+  353  ssh-keygen
+  354  cd ..
+  355  ls
+  356  pwd
+  357  cd home/
+  358  pwd
+  359  cd ..
+  360  ssh-keygen
+  361  cat /$HOME/.ssh/*.pub
+  362  ls -la $HOME/.ssh/
+  363  pwd
+  364  cd /home/vagrant/
+  365  pwd
+  366  -la
+  367  ls -la
+  368  cd .ssh/
+  369  ls -la
+  370  cat id_rsa.pub 
+  371  cd ..
+  372  pwd
+  373  sudo apt install git
+  374  git --version
+  375  git clone git@github.com:thomasarostegui68-collab/TP_AySO.git
+  376  cp README vagrant/
+  377  pwd
+  378  ls -la
+  379  cp README vagrant
+  380  cp README vagrant/
+  381  cp README TP_AySO/
+  382  cd TP_AySO/
+  383  ls -la
+  384  git status
+  385  git commit -m "añadi archivo README"
+  386  git commit -m "añadi archivo txt"
+  387  git push origin main
+  388  git commit -m "añadi archivo txt"
+  389  git config --global user.email "thomasarostegui68@gmail.com"
+  390  git config --global user.name "thomasarostegui68-collab"
+  391  git commit -m "añadi archivo txt"
+  392  git add README 
+  393  git status
+  394  git commit -m "primer archivo"
+  395  git push origin main
+  396  cd
+  397  pwd
+  398  mkdir repogit
+  399  ls -la
+  400  cd repogit/ls -la
+  401  cd repogit/
+  402  ls -la
+  403  cd
+  404  mkdir repogit_Parcial
+  405  ls -la
+  406  $HOME/repogit_Parcial/
+  407  cd repogit_Parcial/
+  408  git clone git@github.com:thomasarostegui68-collab/TP_AySO.git
+  409  cd TP_AySO/
+  410  pwd
+  411  ls -l
+  412  sudo shadow
+  413  man grep
+  414  cd
+  415  pwd
+  416  sudo /etc/shadow
+  417  sudo /shadow
+  418  grep vagrant /etc/shadow
+  419  sudo grep vagrant /etc/shadow
+  420  sudo grep VAGRANT /etc/shadow
+  421  sudo cat /etc/shadow
+  422  main grep
+  423  man grep
+  424  sudo VAGRANT /etc/shadow
+  425  sudo grep VAGRANT /etc/shadow
+  426  sudo grep vagrant /etc/shadow
+  427  sudo grep -i Vagrant /etc/shadow
+  428  sudo grep vagrant /etc/shadow | awk -F: '{print $2}' > pass_usuario.t
+  429  sudo grep vagrant /etc/shadow | awk -F: '{print $2}' > pass_usuario.txt
+  430  cat pass_usuario.txt 
+  431  whoami
+  432  echo "Usuario=$(whoami)" >> pass_usuario.txt
+  433  cat pass_usuario.txt 
+  434  history
+  435  history > historial.txt
+  436  cd TP_AySO/
+  437  git add hisotrial.txt
+  438  cd
+  439  git add historial.txt
+  440  git add
+  441  git --version
+  442  cd TP_AySO/
+  443  history
+  444  history > historial.txt
