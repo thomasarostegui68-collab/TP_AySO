@@ -1,0 +1,621 @@
+~vagrant status
+pwd
+}
+pwd
+cd / 
+pwd
+ls
+man ls
+man ls 
+ls -a
+ls -l
+ls -a -l
+-la ls
+pdw
+cd home/
+ls
+cd vagrant/
+cd ..
+cd vagrant/
+ls
+ls -l
+cd repogit/
+ls
+cd UTN-FRA_SO_onBording/
+ls
+cat
+ls
+cd repogit/
+ls
+cd UTN-FRA_SO_onBording/
+ls
+cat
+ls
+cd repogit/
+cd UTN-FRA_SO_onBording/
+ls
+cat README.md 
+man cat
+cd ..
+ls
+cat << FIN
+Hola
+linea1
+linea2
+linea3
+FIN
+
+cat << FIN > archivo.txt
+Hola
+mi nombre es
+thomas
+FIN
+
+ls
+cat archivo.txt 
+cat << FIN >> archivo.txt 
+Anashe
+67
+67
+67
+67
+67
+67
+67
+67
+fin
+FIN
+
+cat archivo.txt 
+man bc
+bc <<< 2+3
+bc <<< 12344**1233
+bc <<< 21234411*1233312
+tac archivo.txt 
+echo "hola mundo"
+echo "hola mundo" | wc
+tail -n2 archivo.txt 
+cat archivo.txt  | tail -n2
+cat archivo.txt  | grep 67
+cat /porc/cpuinfo | grep proce
+cat 
+ls
+man mkdir
+mkdir archivos_clases
+ls+
+ls
+mv archivo.txt archivos_clases/
+ls
+cd archivos_clases/
+ls
+cp archivo.txt ../
+ls
+cd ..
+ls
+man rm
+rm -I archivos_clases/
+man rmdir
+rmdir -I archivos_clases/
+man rm
+rm -Ir archivos_clases/
+ls
+ls archivos_clases/
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd home/
+ls
+cd vagrant/
+ls
+rm -Ir archivos_clases/
+ls
+history
+ls
+history >> Machete_clase
+ls
+cd Machete_clase
+ls
+Machete_clase
+history
+ls
+cd Machete_clase/
+cat /etc/passwd
+man useradd
+useradd pepe
+sudo useradd thomi
+cat /etc/passwd
+ls /home/
+sudo cat/etc/shadow
+sudo cat /etc/shadow
+su thomi
+ls
+sudo passwd thomi
+sudo cat /etc/shadow
+ls /
+man userdel
+sudo userdel thomi
+kill -9 2552
+sudo kill -9 2552
+sudo userdel thomi
+man userdel
+userdel
+sudo cat/etc/shadow
+sudo cat /etc/shadow
+sudo userdel thomi
+sudo useradd -m -s /bin/bash Pepe
+cat /etc/shadow
+sudo cat /etc/shadow
+ls /home/
+man usermod
+sudo usermod -c "Jose shanchez" pepe
+sudo usermod -c "Jose shanchez" Pepe
+sudo cat /etc/shadow
+sudo grep /etc/shadow
+sudo grep vagrant /etc/shadow
+sudo grep vagrant /etc/shadow | awk -f ":" "{print$2}"
+sudo grep vagrant /etc/shadow | awk -F ':' '{print$2}'
+sudo usermod -p "$(sudo grep vagrant /etc/shadow | awk -F ':' '{print$2}')" Pepe
+sudo cat /etc/shadow
+sudo groupadd desarrolladores
+cat /etc/group
+sudo usermod -G desarrolladores Pepe
+cat /etc/group
+sudo useradd -m -s /bin/bash -G desarrolladores -c "Desarrollador 1 " desa1
+cat /etc/group
+ls / home
+pdw
+pwd
+cd /home/
+ls
+cat << FIN >> ejemplo.txt
+cualquier
+cosa
+FIN
+
+ls -1
+ls
+cd ..
+ls
+ls -1
+ls /home/
+cd ..
+cat << FIN >> ejemplo.txt
+cualquier
+cosa
+FIN
+
+ls -1
+sudo chmod o+r /home/vagrant
+ls -l /home/
+su - pepe
+su - Pepe
+sudo chmod o+x /home/vagrant/
+ls -l
+sudo chmod o-r /home/vagrant/
+ls -l
+pdw
+pwd
+ls
+ls -l /home/
+ls /home/desa1
+sudo ls /home/desa1/
+usudo mkdir hhola /home/desa1/hola
+sudo ls -l /home/desa1
+ls
+sudo mkdir hola /home/desa1/hola
+ls
+sudo ls -l /home/desa1
+sudo chwn desa1:desarrolladores hola
+sudo chown desa1:desarrolladores hola
+sudo chown :desa1 /home/desa1/hola
+sudo ls -l /home/desa1
+sudo chown -R :desarrolladores /home/desa1
+ls -l /home/
+sudo ls -l /home/desa1/
+sudo chmod 771 /home/desa1/
+ls -l /home/
+cd /home/desa1
+ls
+pwd
+pwdpwdp
+wdpwdpwd
+pwd
+wpdwpd
+wdpwdpwd
+pwdpwd
+pwd
+wpd
+wdpwdpp
+cd ..
+pwd
+git --version
+git clone https://github.com/upszot/UTN-FRA_SO_Bash.git
+ls -l
+cd UTN-FRA_SO_Bash/
+ls -l
+cat /etc/paswd
+cat /etc/passwd
+vim hola.sh
+ls -l
+cat hola.sh
+sudo chmod u+x hola.sh 
+ls -l
+./hola.sh 
+vim hola.sh 
+./hola.sh 
+vim hola.sh 
+./hola.sh 
+./hola.sh 2 pepe
+vim hola.sh 
+./hola.sh 
+vim hola.sh 
+./hola.sh 
+./hola.sh Pene concha
+vim hola.sh 
+./hola.sh 
+vim for.sh
+sudo chmod u+x for.sh 
+ls --l
+ls -l
+./for.sh 
+cat for.sh 
+vim for.sh
+cd ..
+CD UTN-FRA_SO_Bash/
+cd UTN-FRA_SO_Bash/
+ls
+cd Bucle_for/
+ls -l
+ls
+cat 1_for_lista.sh 
+cat 2_for_cmd_lista.sh
+vim 2_for_cmd_lista.
+vim 2_for_cmd_lista.sh
+ls
+./2_for_cmd_lista.sh  2_for_cmd_lista.txt
+cat 2_for_cmd_lista.
+cat 2_for_cmd_lista.sh
+./2_for_cmd_lista.sh 2_for_cmd_lista.txt
+vim 2_for_cmd_lista..sh
+vim 2_for_cmd_lista.
+ls
+vim 2_for_cmd_lista.sh
+./2_for_cmd_lista.sh  2_for_cmd_lista.txt
+cat /etc/passwd
+ls /home/
+cat /etc/group
+ls -l
+cd ..
+ls -l
+cd Bucle_while/
+ls -l
+vim 1_while_simple.sh 
+./1_while_simple.sh 
+vim 1_while_simple.sh 
+vimm 2_while_cmd_lista.sh
+ls -l
+vim 2_while_cmd_lista.sh
+cat 2_while_cmd_lista.txt 
+vim 2_while_cmd_lista.sh
+./2_while_cmd_lista.sh 2_while_cmd_lista.txt
+vim 2_while_cmd_lista.sh
+cd ..
+ls
+cd Condicionales/
+ls
+vim case_example.sh 
+./case_example.sh 2 1
+vim case_example.sh 
+./case_example.sh 2 1
+vim case_example.sh 
+./if_simple.sh q
+./if_simple.sh 
+./if_simple.sh
+ls
+./if_simple.sh
+vim if_simple.sh 
+./if_simple.sh 
+vim if_multiple.sh 
+./if_multiple.sh 
+vim if_multiple.sh 
+./if_multiple.sh 
+cd ..
+ls
+menu$ ls -l
+menu ls
+cd menu/
+ls
+vim select_menu.sh 
+./select_menu.sh 
+ls
+cat /etc/passwd
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd
+ls
+cd
+ls
+cd UTN-FRA_SO_Bash/
+LS
+ls
+cd ..
+ls
+pwd
+cd ..
+pwd
+ssh -keygen
+ssh-keygen
+cd ..
+ls
+ssh-keygen
+cd ..
+ls
+pwd
+cd home/
+pwd
+cd ..
+ssh-keygen
+cat /$HOME/.ssh/*.pub
+ls -la $HOME/.ssh/
+pwd
+cd /home/vagrant/
+pwd
+-la
+ls -la
+cd .ssh/
+ls -la
+cat id_rsa.pub 
+cd ..
+pwd
+sudo apt install git
+git --version
+git clone git@github.com:thomasarostegui68-collab/TP_AySO.git
+cp README vagrant/
+pwd
+ls -la
+cp README vagrant
+cp README vagrant/
+cp README TP_AySO/
+cd TP_AySO/
+ls -la
+git status
+git commit -m "añadi archivo README"
+git commit -m "añadi archivo txt"
+git push origin main
+git commit -m "añadi archivo txt"
+git config --global user.email "thomasarostegui68@gmail.com"
+git config --global user.name "thomasarostegui68-collab"
+git commit -m "añadi archivo txt"
+git add README 
+git status
+git commit -m "primer archivo"
+git push origin main
+cd
+pwd
+mkdir repogit
+ls -la
+cd repogit/ls -la
+cd repogit/
+ls -la
+cd
+mkdir repogit_Parcial
+ls -la
+$HOME/repogit_Parcial/
+cd repogit_Parcial/
+git clone git@github.com:thomasarostegui68-collab/TP_AySO.git
+cd TP_AySO/
+pwd
+ls -l
+sudo shadow
+man grep
+cd
+pwd
+sudo /etc/shadow
+sudo /shadow
+grep vagrant /etc/shadow
+sudo grep vagrant /etc/shadow
+sudo grep VAGRANT /etc/shadow
+sudo cat /etc/shadow
+main grep
+man grep
+sudo VAGRANT /etc/shadow
+sudo grep VAGRANT /etc/shadow
+sudo grep vagrant /etc/shadow
+sudo grep -i Vagrant /etc/shadow
+sudo grep vagrant /etc/shadow | awk -F: '{print $2}' > pass_usuario.t
+sudo grep vagrant /etc/shadow | awk -F: '{print $2}' > pass_usuario.txt
+cat pass_usuario.txt 
+whoami
+echo "Usuario=$(whoami)" >> pass_usuario.txt
+cat pass_usuario.txt 
+history
+history > historial.txt
+cd TP_AySO/
+git add hisotrial.txt
+cd
+git add historial.txt
+git add
+git --version
+cd TP_AySO/
+history
+history > historial.txt
+cat historial.txt 
+git status
+cp ~/pass_usuario.txt .
+git status
+git add historial.txt pass_usuario.txt 
+git commit -m "Se agrego historial de comandos hasta ahora y archivo pass_usuario"
+git push
+cd
+cat permisos.txt
+cat > permisos.txt
+pwd
+cat > permisos.txt
+vadq2w
+pwd
+touch permisos.txt
+ls -la
+ls -la > permisos.txt 
+echo "ls -la > permisos.txt" >> permisos.txt 
+cp ~/permisos.txt ~/nombre-del-repo/
+pwd
+ls
+cd repogit_Parcial/
+ls
+cd
+pwd
+ls -la
+ls -la > permisos.txt 
+cat permisos.txt 
+echo "ls -la > permisos.txt" >> permisos.txt
+cp ~/permisos.txt ~/TP_AySO/
+cd TP_AySO/
+ls
+git add permisos.txt 
+git commit -m "ADD: Añadiendo archivo permisos"
+git status
+git push
+etc/passwd
+cd
+etc/passwd
+/etc/passwd
+sudo /etc/passwd
+/etc/
+cat /etc/passwd
+cat permisos.txt 
+ls -la
+touch lista_ordenada.txt
+ls -la
+awk -F: '$1 != "root"' /etc/passwd | head -n 10 | sort > lista_ordenada
+cat lista_ordenada
+cat lista_ordenada.txt
+cat permisos.txt 
+cat lista_ordenada.txt
+cat lista_ordenada
+cm lista_ordenada
+cm -i lista_ordenada
+remove-shell lista_ordenada
+ls
+rm lista_ordenada
+ls 
+cat pass_usuario.t
+cat pass_usuario.txt 
+rm pass_usuario.t
+ls
+cat lista_ordenada.txt 
+mv lista_ordenada.txt lista_ordenada
+cat lista_ordenada 
+awk -F: '$1 != "root"' /etc/passwd | head -n 10 | sort > lista_ordenada
+cat lista_ordenada 
+cp lista_ordenada ~/TP_AySO/
+cd 
+cd ~/TP_AySO/
+git add lista_ordenada 
+git commit -m "ADD: Listado de usuarios ordenada"
+git push
+git status
+cat >> README.md << EOF
+Alumno : Thomas Arostegui
+Division : 111
+Turno : Mañana
+EOF
+
+cat README.md 
+cd 
+cd ~/TP_AySO/
+ls
+cd ~/TP_AySO/
+em README.md 
+rm README.md 
+ls
+cat >> README.md << NASH
+
+Alumno : Thomas Arostegui
+Division : 111
+Turno : Mañana
+NASH
+
+cat README.md 
+git add README.md 
+git commit -m "ADD : Se agrego informacion del alumno al README"
+git status
+git push
+git status
+cd
+mkdir -p ~/universidad/alumnos/legajos{1..15} ~/universidad/profesores/legajos{1..5}
+tree universidad/
+mkdir -p
+sudo apt install tree
+tree universidad/
+cd ~/TP_AySO/
+cat > script_dir.sh << 'NASH'
+
+#!/bin/bash
+mkdir -p ~/universidad/alumnos/legajos{1..15} ~/universidad/profesores/legajos{1..5}
+NASH
+
+cat script_dir.sh 
+chmod +x script_dir.sh 
+./script_dir.sh
+git add .
+git add script_dir.sh 
+git commit -m "ADD: Añadiendo script"
+git push
+ls
+git status
+git rm .README.md.swp README historial.txt 
+git status
+git commit -m "Delete: Elimine archivos innecesarios"
+git push
+history -a
+cp ../.bash_history Historial_comandos_ApellidoNombre.txt
+ls
+cat Historial_comandos_ApellidoNombre.txt 
+~/TP_AySO
+cd ~/TP_AySO
+~/TP_AySO
+cd ~/TP_AySO
+echo "Materia: Arquitectura y Sistemas Operativos" >> README.md
+cat README.md 
+git add README.md 
+git commit -m "docs: Se agrego materia al README del alumno"
+git push
+git status
+ls
+cat Historial_comandos_ApellidoNombre.txt 
+rm Historial_comandos_ApellidoNombre.txt 
+ls
+git status
+history -a
+cp ../.bash_history Historial_comandos_Arostegui_Thomas.txt
+history -a
+cp ../.bash_history Historial_comandos_ArosteguiThomas.txt
+cat Historial_comandos_Arostegui
+ls
+cat Historial_comandos_Arostegui.txt
+cat Historial_comandos_Arostegui_Thomas.txt
+ls
+cat Historial_comandos_ArosteguiThomas.txt 
+ls
+rm Historial_comandos_ArosteguiThomas.txt 
+ls
+cat Historial_comandos_Arostegui_Thomas.txt 
+ls
+history -a
+cp ../.bash_history Historial_comandos_ArosteguiThomas.txt
+history -a
+cp ../.bash_history Historial_comandos_ArosteguiThomas.txt
+ls
+rm Historial_comandos_Arostegui
+rm Historial_comandos_ArosteguiThomas.txt 
+rm Historial_comandos_Arostegui_Thomas.txt 
+history
+history -a
