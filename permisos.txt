@@ -1,0 +1,28 @@
+total 124
+drwxr-x--x 10 vagrant vagrant          4096 Oct 10 17:35 .
+drwxr-xr-x  8 root    root             4096 Sep 30 13:50 ..
+-rw-------  1 vagrant vagrant          6809 Oct 10 17:44 .bash_history
+-rw-r--r--  1 vagrant vagrant           220 Aug 29 11:08 .bash_logout
+-rw-r--r--  1 vagrant vagrant          4251 Sep  9 14:19 .bashrc
+drwx------  2 vagrant vagrant          4096 Sep  9 14:19 .cache
+-rw-rw-r--  1 vagrant vagrant            77 Oct 10 16:58 .gitconfig
+-rw-------  1 vagrant vagrant            41 Oct 10 17:16 .lesshst
+-rw-r--r--  1 vagrant vagrant           807 Aug 29 11:08 .profile
+drwx------  2 vagrant vagrant          4096 Oct 10 16:50 .ssh
+-rw-------  1 vagrant vagrant         16008 Sep 30 14:31 .viminfo
+-rw-rw-r--  1 vagrant vagrant          1905 Sep 16 14:20 Machete_clase
+-rw-r--r--  1 root    root                5 Sep  9 14:19 README
+drwxrwxr-x  3 vagrant vagrant          4096 Oct 10 17:26 TP_AySO
+drwxrwxr-x 10 vagrant vagrant          4096 Sep 30 13:37 UTN-FRA_SO_Bash
+-rw-rw-r--  1 vagrant vagrant            60 Sep 16 13:45 archivo.txt
+drwxrwxrwx  1 vagrant vagrant             0 Sep  9 14:16 carpeta_compartida
+-rw-rw-r--  1 vagrant vagrant            15 Sep 23 13:29 ejemplo.txt
+-rw-rw-r--  1 vagrant vagrant          9278 Oct 10 17:22 historial.txt
+drwxr-xr-x  2 desa1   desarrolladores  4096 Sep 23 13:45 hola
+-rw-rw-r--  1 vagrant vagrant            74 Oct 10 17:19 pass_usuario.t
+-rw-rw-r--  1 vagrant vagrant            90 Oct 10 17:20 pass_usuario.txt
+-rw-rw-r--  1 vagrant vagrant             0 Oct 10 17:44 permisos.txt
+drwxrwxr-x  3 vagrant vagrant          4096 Sep  9 14:19 repogit
+drwxrwxr-x  3 vagrant vagrant          4096 Oct 10 17:07 repogit_Parcial
+-rw-r--r--  1 vagrant vagrant             5 Oct 10 16:52 vagrant
+ls -la > permisos.txt
